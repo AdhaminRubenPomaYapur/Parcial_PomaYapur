@@ -34,7 +34,6 @@ namespace ParcialAdhaminPomaYapur.Models
         public string languages { get; set; }
 
         [DisplayName("Flag")]
-        [DataType(DataType.ImageUrl)]
-        public ImageAlign flag { get; set; }
+        public string flag { get; set; }
     }
 }
