@@ -12,5 +12,7 @@ namespace ParcialAdhaminPomaYapur.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<ParcialAdhaminPomaYapur.Models.Country> Countries { get; set; }
     }
 }

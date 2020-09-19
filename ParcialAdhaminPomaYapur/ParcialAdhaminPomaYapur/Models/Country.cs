@@ -26,7 +26,6 @@ namespace ParcialAdhaminPomaYapur.Models
 
         [DisplayName("CALLINGCODES")]
         [Required]
-        [Range(0,14)]
         public int CallingCodes { get; set; }
 
         [DisplayName("LANGUAGES")]
